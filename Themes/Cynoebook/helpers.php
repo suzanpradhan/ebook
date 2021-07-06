@@ -29,7 +29,7 @@ if (! function_exists('resolve_theme_color')) {
             'theme-marrs-green' => '#0a6f75',
             'theme-navy-blue' => '#31629f',
             'theme-pink' => '#f15497',
-            'theme-black' => '#333645',
+            'theme-black' => '#0d0d0d',
         ];
 
         return $colors[$name] ?? '#31629f';

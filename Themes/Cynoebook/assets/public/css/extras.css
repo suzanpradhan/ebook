@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Tw Cen MT";
+    src: url("../fonts/TWCENMT.ttf");
+  }
+
+* {
+    font-family: "Tw Cen MT" !important;
+}

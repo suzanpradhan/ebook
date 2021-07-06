@@ -57,7 +57,7 @@
 
     </div>
 
-    <div class="footer-bottom p-tb-20 clearfix">
+    <div class="footer-bottom p-tb-10 clearfix">
         <div class="container">
             <div class="copyright text-center">
                 {{ $copyrightText }}

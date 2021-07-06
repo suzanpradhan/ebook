@@ -28,7 +28,9 @@
         </div>
         
         <div class="row">
-            @include('public.ebooks.partials.ebook.view-files')
+            @auth
+                @include('public.ebooks.partials.ebook.view-files')
+            @endauth
         </div>
         <div class="row">
             <div class="col-md-12">

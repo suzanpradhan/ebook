@@ -16,7 +16,7 @@
 
         @stack('meta')
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:400,500" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:400,500" rel="stylesheet"> --}}
 
         @if (is_rtl())
             <link rel="stylesheet" href="{{ v(Theme::url('public/css/app.rtl.css')) }}">
@@ -58,7 +58,7 @@
         <div class="main">
             <div class="wrapper">
                 @include('public.include.sidebar')
-                @include('public.include.top_nav')
+                {{-- @include('public.include.top_nav') --}}
                 @include('public.include.header')
                 @include('public.include.navbar')
 
